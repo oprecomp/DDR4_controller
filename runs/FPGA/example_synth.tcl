@@ -151,7 +151,7 @@ set_property used_in_implementation false [get_files ./../../../Xi_BRAM/IP/bram_
 
 cd $SYNTH_RES_PATH
 file mkdir .Xil
-synth_design -top tb_ddr4_ch_ctrl -flatten_hierarchy rebuilt -include_dirs  ../../../ips/ddr3.phy.verilog/implementation/syn/light_phy/ -verilog_define FPGA -verilog_define DDR4 -verilog_define SYNTHESIS -verilog_define PULP_FPGA_EMUL -verilog_define NEW_TGEN > synth.log
+synth_design -top tb_ddr4_ch_ctrl -flatten_hierarchy rebuilt -include_dirs  ../../../validation/tb_ddr4_ch_ctrl/ -verilog_define FPGA -verilog_define DDR4 -verilog_define SYNTHESIS -verilog_define PULP_FPGA_EMUL -verilog_define NEW_TGEN > synth.log
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
 write_xdc -force -file synth.xdc

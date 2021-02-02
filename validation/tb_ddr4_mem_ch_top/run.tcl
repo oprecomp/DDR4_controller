@@ -115,7 +115,6 @@ $PHY_PATH/mig_phy.srcs/sources_1/ip/ddr4_0/tb/microblaze_mcs_0.sv \
 	../../implementation/syn/config_bus_slave/config_bus_slave.sv
 	../../implementation/syn/mem_ctrl/mem_ctrl_if.sv
 	../../implementation/syn/congen/congen.v
-	../../implementation/syn/ddr3_mem_ch_top/ddr3_mem_ch_top.sv
 	../../implementation/syn/axi_dram_if/axi_dram_if.sv
 	../../implementation/syn/ch_ctrl/ch_ctrl.sv
 	../../implementation/syn/ch_ctrl_bank_fsm/ch_ctrl_bank_fsm.sv

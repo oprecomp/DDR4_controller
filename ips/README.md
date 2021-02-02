@@ -1,0 +1,1 @@
+# IP Folder that contains Phy and some generic modules. There are 2 modules inside ems_lib whose ownership is with ETH Zürich

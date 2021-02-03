@@ -5,6 +5,7 @@ Designed by: TU Kaiserslatern (https://ems.eit.uni-kl.de/)
 This is the first FPGA version of a DDR4 memory controller for Transprecision Computing.  This DDR4 controller is migrated from our DDR3 memory controller that was originally desined as an ASIC IP. In the future, we will optimize the design for different FPGA platforms.
 
 ## Folder Organization
+* bitstreams <-- FPGA bit files and debug files for various boards 
 * doc <-- Documentation of the DRAM-Controller
 * implementation/syn <-- RTL-Models
 * ips <-- contains submodules, shared design libraries and proprietary test modules 
